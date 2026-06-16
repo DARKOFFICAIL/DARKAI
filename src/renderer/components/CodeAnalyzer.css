@@ -1,0 +1,177 @@
+.analyzer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.analyzer-form {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.form-group input[type="text"]:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 300px;
+}
+
+.analyze-btn {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.analyze-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.analyze-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.error-message {
+  background: #ffebee;
+  border-left: 4px solid #d32f2f;
+  color: #c62828;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.error-message p {
+  margin: 0;
+}
+
+.results {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.results h3 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 1rem;
+}
+
+.result-summary {
+  background: #f8f9ff;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.result-summary p {
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.result-summary strong {
+  color: #667eea;
+}
+
+.issues-section {
+  margin-bottom: 1.5rem;
+}
+
+.issues-section h4 {
+  color: #d32f2f;
+  margin-bottom: 1rem;
+}
+
+.issue {
+  background: #ffebee;
+  border-left: 4px solid #d32f2f;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.error-msg {
+  margin: 0 0 0.5rem 0;
+  color: #c62828;
+  font-weight: 500;
+}
+
+.warning-msg {
+  margin: 0 0 0.5rem 0;
+  color: #f57c00;
+  font-weight: 500;
+}
+
+.line-num {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.suggestion {
+  margin: 0.5rem 0 0 0;
+  color: #0277bd;
+  font-size: 0.9rem;
+}
+
+.suggestions-section {
+  margin-top: 1.5rem;
+}
+
+.suggestions-section h4 {
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.suggestion-box {
+  background: #e8eaf6;
+  border-left: 4px solid #667eea;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.suggestion-box p {
+  margin: 0;
+  color: #333;
+}

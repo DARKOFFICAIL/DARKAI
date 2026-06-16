@@ -1,0 +1,11 @@
+# Python Backend Dependencies
+Flask==2.3.0
+Flask-CORS==4.0.0
+requests==2.31.0
+python-dotenv==1.0.0
+watchdog==3.0.0
+ast==3.9.0
+jsonschema==4.19.0
+aiohttp==3.9.0
+pydantic==2.0.0
+pygments==2.16.0

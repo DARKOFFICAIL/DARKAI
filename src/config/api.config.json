@@ -1,0 +1,21 @@
+{
+  "apiProvider": "openai",
+  "apiKey": "your-api-key-here",
+  "apiSecret": "",
+  "model": "gpt-4",
+  "baseUrl": "https://api.openai.com/v1",
+  "timeout": 30000,
+  "retries": 3,
+  "temperature": 0.7,
+  "maxTokens": 2000,
+  "language": "ar",
+  "debugMode": false,
+  "enableFileMonitoring": true,
+  "monitorInterval": 1000,
+  "supportedExtensions": [
+    ".py", ".js", ".ts", ".tsx", ".jsx",
+    ".java", ".c", ".cpp", ".cc", ".cs",
+    ".php", ".rb", ".go", ".rs", ".kt",
+    ".swift", ".m", ".scala", ".hs", ".r"
+  ]
+}

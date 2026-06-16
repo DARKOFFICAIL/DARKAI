@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.egg-info/
+.Python
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+build/
+dist/
+release/
+*.exe
+*.dmg
+*.AppImage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# API Keys and sensitive data
+config/api.config.json
+!config/api.config.json.example
+!src/config/api.config.json.example
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Electron
+out/
